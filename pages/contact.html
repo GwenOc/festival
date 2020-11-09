@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="../css/style.css" rel="stylesheet"> 
+</head>
+
+<body id="body">
+  <!-- zone log-in inscription -->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="log-links float-right">
+        <a href="#">M'inscrire</a>
+        <a href="#">Me connecter</a>
+      </div>
+    </div>
+  </section>
+  <!-- début header -->
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <h1>
+          <a href="#body" class="scrollto">Festival en plein<span>air</span></a>
+        </h1>
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li ><a href="../index.html#body">Accueil</a></li>
+          <li><a href="../index.html#about">L'association</a></li>
+          <li><a href="../index.html#festival">Le festival</a></li>
+          <li class="menu-has-children">
+            <a href="../index.html#films">Les films</a>
+            <ul>
+              <li><a href="#">Big Fish</a></li>
+              <li><a href="#">Mulholland Drive</a></li>
+              <li><a href="#">Valhalla Rising</a></li>
+              <li><a href="#">Into the wild</a></li>
+            </ul>
+          </li>
+          <li><a href="infos_pratiques.html">Infos pratiques</a></li>
+          <li class="menu-active"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- #header -->
+  <!--  banniere -->
+  <section id="banner">
+    <div class="banner-content">
+      <h2>Monceau fait son cinéma</h2>
+    </div>
+  </section>
+  <!-- banniere -->
+  <main id="main">
+    <!--==========================Contact Section============================-->
+    <section id="contact" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contactez Nous</h2>
+          <p>
+            L'association a ses locaux dans le 10ème arrondissement de Paris des permanences sont organisées 5 fois par mois.
+          </p>
+        </div>
+        <div class="row contact-info">
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Adresse</h3>
+              <address>
+                14 rue Alexandre Parodi, 75010 Paris
+              </address>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Téléphone</h3>
+              <p>
+                <a href="tel:0144899974">01 44 89 99 74</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mb-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8472923103895!2d2.363428515903524!3d48.88018760712536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e743a09e1f7%3A0xc7f998b014f7fa85!2s14%20Rue%20Alexandre%20Parodi%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1570181467592!5m2!1sfr!2sfr" width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <div class="container">
+        <div class="form">
+          <div id="sendmessage">
+            Votre message a bien été envoyé!
+          </div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Entrez au moins 4 caractères" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Votre email" data-rule="email" data-msg="Merci d'entrer un email valide" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Entrez au moins 8 caractères" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Ecrivez nous quelque chose" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center">
+              <button type="submit">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- #contact -->
+  </main>
+  <!--==========================Footer  ============================-->
+  <section id="footer" class="my-5">
+    <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <h5>
+            Catégories
+          </h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="../index.html#about">L'association</a></li>
+            <li><a href="index.html#festival">Le festival</a></li>
+            <li><a href="../index.html#films">Les films</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <h5>
+            Aide
+          </h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="infos_pratiques.html">Infos Pratiques</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5 col-lg-4">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ./Footer -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="../lib/jquery/jquery.min.js"></script>
+  <script src="../lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../lib/easing/easing.min.js"></script>
+  <script src="../lib/superfish/hoverIntent.js"></script>
+  <script src="../lib/superfish/superfish.min.js"></script>
+  <script src="../lib/wow/wow.min.js"></script>
+  <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="../lib/sticky/sticky.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="../contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
